@@ -1,0 +1,31 @@
+{
+  "name": "vault-lambda-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "Michael Mathews <mmathews@shopkeep.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/aws4": "^1.5.1",
+    "async": "^3.1.0",
+    "aws-sdk": "^2.503.0",
+    "aws4": "^1.8.0",
+    "object.fromentries": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/async": "^3.0.1",
+    "@types/jest": "^24.0.16",
+    "@types/node": "^12.6.8",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.5.3"
+  }
+}
